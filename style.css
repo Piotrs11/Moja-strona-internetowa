@@ -1,16 +1,34 @@
-body{
+:root{
+font-size: 15px;
 
+}
+body{
     background-color:darkolivegreen;
-    color:darkturquoise
+    color:darkturquoise;
+    font-size: 12px;
 }
 a{
-
-color:darkred    
+    color:darkred;
+    font-size: 2rem;
 }
 header{
-border: 2px solid bisque;
-
+    border: 2px solid bisque;
 }
 main{
-    /* background-color: ; */
+    /*background-color: black;*/
+    font-family: Lato sans-serif ;
+    border: 2px red;
 }
+.paragraf_większy{
+    font-size: 2em;
+} /*# do ID a . do Class*/
+#paragraf_większy{
+    font-size: 24px;
+}
+/*<style>
+        body{
+        background-color: aqua;
+        }
+
+    </style>
+    można tego urzyć w head i jest ważniejsze*/
