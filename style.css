@@ -1,10 +1,10 @@
 :root{
-font-size: 15px;
-
+    font-size: 15px;
+    font-family: Lato sans-serif;
 }
 body{
-    background-color:darkolivegreen;
-    color:darkturquoise;
+    background-color:rgb(70, 110, 0);
+    color:aliceblue;
     font-size: 12px;
 }
 a{
@@ -12,18 +12,44 @@ a{
     font-size: 2rem;
 }
 header{
-    border: 2px solid bisque;
+    border: 2px solid ;
+}
+#Nagłówek {
+    font-size: 40px;
+    text-align: center;
+    text-transform:uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px rgba(250, 8, 129, 0.932);
 }
 main{
     /*background-color: black;*/
-    font-family: Lato sans-serif ;
-    border: 2px red;
+    border: 2px ;
+}
+.sections {
+    border: 2px solid ;
 }
 .paragraf_większy{
     font-size: 2em;
 } /*# do ID a . do Class*/
 #paragraf_większy{
     font-size: 24px;
+}
+.paragraf_mniejszy{
+    font-size: 20px;
+}
+#lewy{
+    text-align: left;
+    text-transform:uppercase;
+}
+#prawy{
+    text-align: right;
+    text-transform:lowercase;
+}
+#center{
+    text-align: center;
+}
+#justify{
+    text-align: justify;
 }
 /*<style>
         body{
