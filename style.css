@@ -1,48 +1,45 @@
 :root{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: Lato sans-serif;
 }
-
 body{
-    background-color: rgb(39, 82, 39)!important;
-    color:rgb(255, 255, 255)
+    background-color:rgb(70, 110, 0);
+    color:aliceblue;
+    font-size: 12px;
 }
-
 a{
-    text-decoration-line:none;
-    color:crimson
-    
+    color:darkred;
+    font-size: 2rem;
 }
 header{
-border: 4px solid beige;
+    border: 2px solid ;
 }
-#paragraf_większy{
-    font-size: 16px;
-}
-
-article p{
-font-size: 16px;
-    color:rgb(255, 255, 255);
-    
-}
-#paragraf_większy ~ span{
-    background-color: aqua;
-}
-h2{
-    color:ghostwhite
-}
-h3{
-    color:grey
+#Nagłówek {
+    font-size: 40px;
+    text-align: center;
+    text-transform:uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px rgba(250, 8, 129, 0.932);
 }
 main{
-    border:2px solid beige;
+    /*background-color: black;*/
+    border: 2px ;
 }
-.paragraf_większy{
-    color:darkgrey
+.sections {
+    border: 2px solid ;
+}
+.paragraf_większy ~ span{
+    font-size: 2em;
+} /*# do ID a . do Class*/
+#paragraf_większy{
+    font-size: 24px;
+}
+.paragraf_mniejszy{
+    font-size: 20px;
 }
 #lewy{
     text-align: left;
-    text-transform:uppercase
+    text-transform:uppercase;
 }
 #prawy{
     text-align: right;
@@ -54,25 +51,42 @@ main{
 #justify{
     text-align: justify;
 }
-#Marki{
-    border:2px solid beige
+.koło {
+    list-style-type:circle;
 }
-#Jazda{
-    border:2px solid beige
+.kwadrat {
+    list-style-type:square;
 }
-#Mechanika{
-    border:2px solid beige
+.dysk {
+    list-style-type:disc;
 }
-#Przygody{
-    border:2px solid beige
+nav ul{
+list-style-type: none;
 }
-footer{
-    text-shadow:1px 1px 1px grey ;
-    color:crimson
+ol {
+    list-style-type: decimal;
 }
-body h1{
-    text-shadow: 1px 1px 2px cyan;
+.mlitery{
+    list-style-type: lower-alpha;
 }
+.dlitery{
+    list-style-type: upper-alpha;
+}
+.mliteryr{
+    list-style-type: lower-roman;
+}
+.dliteryr{
+    list-style-type: upper-roman;
+}
+.cyfryz{
+    list-style-type: decimal-leading-zero;
+}
+
+.obrazek{
+    list-style-image: url('punktator.jpg');
+}
+
+
 /*<style>
         body{
         background-color: aqua;
