@@ -53,9 +53,11 @@ main{
 }
 .koło {
     list-style-type:circle;
+    list-style-position: inside;
 }
 .kwadrat {
     list-style-type:square;
+    list-style-position: outside;
 }
 .dysk {
     list-style-type:disc;
