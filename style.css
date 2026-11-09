@@ -1,6 +1,7 @@
 :root{
     font-size: 15px;
     font-family: Lato sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-color:rgb(70, 110, 0);
@@ -85,8 +86,9 @@ ol {
 }
 
 .obrazek{
-    list-style-image: url('punktator.jpg');
+    list-style-image: url(img/punktator1.jpg);
 }
+
 
 
 /*<style>
